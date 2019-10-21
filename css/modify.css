@@ -90,6 +90,20 @@ p.course{
 
 @media only screen and (max-device-width: 1000px) {
 	header .banner {
-		background-color: #000000cf;
+		background-color: #00000087;
+	}
+	.LI-profile-badge{
+		margin-left: calc(50% - 125px);
+	}
+	#about h2 {
+		padding-top: 50px;
+	}
+	#about {
+		padding-top: 60px;
+	}
+	#about h2{
+		text-align: center;
 	}
 }
+
+

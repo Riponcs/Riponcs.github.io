@@ -644,6 +644,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
+   display: none;
    background: #1F1F1F url(../images/NeuralNetV2.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;

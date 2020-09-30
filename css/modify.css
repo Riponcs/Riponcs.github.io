@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+
 .skillbar {
   font-family: 'Open Sans', 'sans-serif';
 	position:relative;
@@ -109,4 +111,44 @@ p.course{
 
 #about>div>div.nine.columns.main-col{
 	width:70%;
+}
+
+/* Changing the background of Manu */
+
+ul#nav li a:hover, ul#nav li a:focus{
+	background-color: #ffffff9e;
+    color: black!important;
+} 
+
+/* Change css for Logo */
+
+.navbar-brand{
+	float: left;
+	position: relative;
+	font-size: 17px;
+	min-height: 60px;
+	width: auto;
+	font-family: cursive;
+	font-weight: 400;
+	clear: #ffffff;
+}
+
+
+#nav-wrap a{
+	margin-left: 50px;
+	padding-top: 15px;
+	clear: #ffffff;
+}
+
+ul#nav {
+	float: left;
+	width: 75%;
+	
+}
+
+
+#nav-wrap{
+	backdrop-filter: blur(10px);
+	background-color: #0000008f;
+	
 }

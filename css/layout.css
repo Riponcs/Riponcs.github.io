@@ -29,6 +29,7 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 
 header {
+   margin-top: -30px;
    position: relative;
    height: 100vh;
    min-height: 500px;
@@ -60,7 +61,7 @@ header .banner {
 
 header .banner-text { width: 100%; margin-top: 30px;}
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'opensans', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -148,13 +149,12 @@ header .scrolldown a:hover { color: #11ABB0; }
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
-   min-height: 48px;
+   min-height: 60px;
    width: auto;
+   padding-top: 7px;
 
    /* center align the menu */
-   text-align: center;
-   backdrop-filter: blur(10px);
-   background-color: #0000008f;
+   text-align: right;
 }
 ul#nav li {
    position: relative;

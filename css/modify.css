@@ -85,7 +85,12 @@
 	-webkit-columns: 2;
 	-moz-columns: 2;
 }
-
+.AchievementUL{
+	list-style: inside;
+	columns: 1;
+	-webkit-columns: 1;
+	-moz-columns: 1;
+}
 p.course{
 	margin: 0 0 0 0;
 }
@@ -152,4 +157,13 @@ ul#nav {
 	backdrop-filter: blur(10px);
 	background-color: #0000008f;
 	
+}
+
+.Achievement{
+	border-top: 1px solid #E8E8E8;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+ul li{
+	list-style-position: outside;
 }

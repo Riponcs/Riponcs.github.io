@@ -137,9 +137,10 @@ ul#nav li a:hover, ul#nav li a:focus{
 #nav-wrap a{
 	margin-left: 50px;
 	padding-top: 15px;
-	clear: #ffffff;
+	color: #fff;
+	text-shadow: #363535 3px 3px 5px;
+	font-variant: small-caps;
 }
-
 ul#nav {
 	float: left;
 	width: 75%;

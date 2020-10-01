@@ -154,8 +154,9 @@ ul#nav {
 
 
 #nav-wrap{
-	backdrop-filter: blur(10px);
-	background-color: #0000008f;
+	backdrop-filter: blur(4px);
+	background-color: #0560a378;
+	border-bottom: 1px solid #08080836;
 	
 }
 

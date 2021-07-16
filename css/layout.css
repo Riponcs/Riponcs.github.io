@@ -34,7 +34,7 @@ header {
    height: 100vh;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/Equation.jpg) no-repeat top center;
+   background: #161415 url(../images/Equation.jpg) no-repeat top center!important;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -133,10 +133,10 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 14px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
-   letter-spacing: 2.5px;
+   letter-spacing: 2px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
@@ -180,6 +180,7 @@ ul#nav li a {
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
+   margin-left: 30px;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -1014,4 +1015,9 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #contactMessage{
    height: 120px;
+}
+
+/* Hide the top tracking bar */
+#wts1912087{
+   display: none;
 }

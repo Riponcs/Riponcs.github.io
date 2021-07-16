@@ -168,3 +168,7 @@ ul#nav {
 ul li{
 	list-style-position: outside;
 }
+
+.widget_contact p{
+	color: rgb(255 255 255 / 90%);
+}

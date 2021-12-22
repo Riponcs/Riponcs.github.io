@@ -172,3 +172,8 @@ ul li{
 .widget_contact p{
 	color: rgb(255 255 255 / 90%);
 }
+
+.row .threeMod{ width: 33.3%; }
+.row {
+    max-width: 1200px;
+}

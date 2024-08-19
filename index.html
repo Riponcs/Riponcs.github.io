@@ -80,11 +80,9 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <!--
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            -->
+            <li><a class="smoothscroll" href="#" onclick="scrollToClass('industry')">Experience</a></li>
+            <li><a class="smoothscroll" href="#" onclick="scrollToClass('publications')">publications</a></li>
+            <li><a class="smoothscroll" href="#portfolio">portfolio</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -126,28 +124,31 @@
          </div>
          <div class="nine columns main-col">
             <h2>About Me</h2>
-            <p>Now I'm working as a Ph.D. student on Computer Vision, Machine Learning, and Computational photography in
-               the <a href="https://web.asu.edu/imaging-lyceum"> Imaging Lyceum Lab</a> at <a
-                  href="https://cen.engineering.asu.edu/">Arizona State University</a> under supervision of <a
-                  href="https://isearch.asu.edu/profile/3183646">Suren Jayasuriya</a>. My main project is Designing a
-               physics-based deep learning model for dynamic scene restoration affected by atmospheric turbulence taken
-               with Ultra-Zoom or astrophotography camera.</p>
+            <p>I am currently a Ph.D. student at Arizona State University, specializing in Computer Vision, Machine
+               Learning, and Computational Photography within the <a href="https://web.asu.edu/imaging-lyceum">Imaging
+                  Lyceum Lab</a>, under the guidance of <a href="https://isearch.asu.edu/profile/3183646">Dr. Suren
+                  Jayasuriya</a>. My research is focused on developing advanced deep learning models for dynamic scene
+               restoration, particularly addressing the challenges posed by atmospheric turbulence in Ultra-Zoom and
+               astrophotography applications. This work integrates physics-based methods with SOTA Deep learning
+               techniques, aiming to significantly enhance image clarity and stability in challenging imaging
+               environments.</p>
 
-            <p>Before this position, I've worked as Machine Learning and computer vision researcher in <a
-                  href="https://bmse.gist.ac.kr/neurophotonics/">NeuroPhotonics</a> lab of <a
-                  href="https://www.gist.ac.kr/en/main.html">GIST (South Korea)</a> as an MS student under supervision
-               of professor <a href="https://scholar.google.com/citations?user=077GWJIAAAAJ&hl=en">Euiheon Chung</a>. My
-               thesis was on the development of a multimodal architecture for automated assessment of infrared images
-               (of tear film) to detect/segment out the eye gland area, provide ophthalmologist quality assessment
-               score(Meiboscore), and remove specular refection <a
-                  href="https://neurophotonics.gist.ac.kr/neurophotonics/49991.do">(Details)</a>. Dataset of <a
-                  href="http://mgd1k.github.io/">1000 images</a> released. [Model: Encoder-Decoder Structure, Resnet50,
-               GAN in Pytorch].</p>
 
-            <p>I completed my undergraduate in Computer Science & Engineering from Bangladesh with a sound knowledge of
-               C++, Python, Web design, Java, iOS app development with Swift. I was an active contest programmer with
-               participation in different national and regional onsite and online programming contests and hackathons.
-            </p>
+            <p>Prior to my Ph.D., I completed an M.S. in Biomedical Science & Engineering at the <a
+                  href="https://www.gist.ac.kr/en/main.html">Gwangju Institute of Science and Technology (GIST)</a> in
+               South Korea, where I worked as a research assistant in the <a
+                  href="https://bmse.gist.ac.kr/neurophotonics/">NeuroPhotonics Lab</a> under <a
+                  href="https://scholar.google.com/citations?user=077GWJIAAAAJ&hl=en">Professor Euiheon Chung</a>. My
+               thesis involved developing a deep learning model for the automated assessment of infrared images of the
+               tear film, including segmentation of the Meibomian gland and specular reflection removal. This work
+               resulted in the release of a 1,000-image annotated dataset and demonstrated advanced techniques using
+               ResNet50 and GANs.</p>
+
+            <p>I earned my Bachelor’s degree in Computer Science & Engineering in Bangladesh, where I developed strong
+               skills in C++, Python, web design, Java, and iOS app development with Swift. I actively participated in
+               national and regional programming contests and hackathons, honing my problem-solving abilities and
+               gaining recognition in various competitive events.</p>
+
 
             <div class="row">
                <div class="columns contact-details">
@@ -257,8 +258,107 @@
          </div> <!-- main-col end -->
       </div> <!-- End Education -->
 
+      <!-- Industry Experience ----------------------------------------------- -->
+      <div class="row industry">
+
+         <div class="three columns header-col">
+            <h1><span>Industry Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="experience-item">
+               <h3>Kitware Inc.</h3>
+               <p class="info">Summer Internship <span>•</span> <em class="date">May 2024 - Aug 2024</em></p>
+               <p>
+                  Applied deep learning and computer vision methods for object detection, event/activity recognition,
+                  and video/image understanding. Calculated uncertainty in object recognition and detection in
+                  long-range video footage. Utilized data from ground, handheld, aerial, or satellite cameras, advancing
+                  real-time segmentation, enhancing multiple degraded videos, optimizing performance, and emphasizing
+                  object feature preservation.
+               </p>
+            </div>
+
+            <div class="experience-item">
+               <h3>Lightsense Technology Inc.</h3>
+               <p class="info">Summer Internship <span>•</span> <em class="date">June 2022 - August 2022</em></p>
+               <p>
+                  Developed an AI model for Covid-19 classification using spectral data and machine learning techniques.
+                  Pioneered spectral unmixing solutions for bacteria samples, analyzing viruses in saliva and buffer
+                  solutions using the PARAFAC algorithm and various preprocessing techniques. Enhanced component
+                  identification vital for drug detection, pathogen identification, food safety, and medical
+                  diagnostics.
+               </p>
+            </div>
+
+            <div class="experience-item">
+               <h3>Alphacore Inc.</h3>
+               <p class="info">Doctoral Student Collaboration <span>•</span> <em class="date">March 2021 - August
+                     2023</em></p>
+               <p>
+                  Managed onsite field experiments setup with several telescopes, drones, cameras, weather stations, and
+                  scintillometers. Built a deep learning model for atmospheric turbulence estimation across varying
+                  focus distances, light intensity, platform motion, and camera shake. Analyzed and processed extensive
+                  multidimensional data from various sensors, contributing to research advancements in atmospheric
+                  turbulence estimation.
+               </p>
+            </div>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Industry Experience -->
+      <hr>
+
+      <!-- Publications Section ----------------------------------------------- -->
+      <div class="row publications">
+         <div class="three columns header-col">
+            <h1><span>Publications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="publication-item">
+               <h5>Turb-Seg-Res: A Segment-then-Restore Pipeline for Dynamic Videos with Atmospheric Turbulence</h5>
+               <p class="info"><u>Ripon Kumar Saha</u>, Qin D, e J, Li N, and Jayasuriya S <span>•</span><b>CVPR
+                     2024</b></p>
+            </div>
+
+            <div class="publication-item">
+               <h5>Unsupervised Region-Growing Network for Object Segmentation in Atmospheric Turbulence</h5>
+               <p class="info">Qin D, <u>Ripon Kumar Saha</u>, Jayasuriya S, Ye J, and Li N <span>•</span> <b>ECCV
+                     2024</b></p>
+            </div>
+
+            <div class="publication-item">
+               <h5>MetaVIn: Meteorological and Visual Integration for Atmospheric Image Degradation Estimation</h5>
+               <p class="info"><u>Ripon Kumar Saha</u>, McCloskey S, Jayasuriya S <span>•</span> <b>Submitted to WACV
+                     2025</b></p>
+            </div>
+
+            <div class="publication-item">
+               <h5>Turbulence Strength C2n Estimation from Video using Physics-based Deep Learning</h5>
+               <p class="info"><u>Ripon Kumar Saha</u>, Esen S, Jihoo K, Joseph S, and Suren J <span>•</span> <b>Optics
+                     Express 2022</b></p>
+            </div>
+
+            <div class="publication-item">
+               <h5>Automated Quantification of Meibomian Gland Dropout in Infrared Meibography using Deep Learning</h5>
+               <p class="info"><u>Ripon Kumar Saha</u>, Chowdhury AM, Na KS, Hwang GD, Hwang H, and Chung E
+                  <span>•</span> <b>Ocular Surface 2022</b></p>
+            </div>
+
+            <div class="publication-item">
+               <h5>Electrocorticography-Based Motor Imagery Movements Classification using LSTM based on Deep Learning
+                  Approach</h5>
+               <p class="info">Rashid M, Islam M, Sulaiman N, Bari BS, <u>Ripon Kumar Saha</u>, Hasan MJ <span>•</span>
+                  <b>SN Applied Science 2020</b></p>
+            </div>
+
+         </div> <!-- main-col end -->
+      </div> <!-- End Publications -->
 
       <!-- Skills ----------------------------------------------- -->
+      <hr>
+
       <div class="row skill">
 
          <div class="three columns header-col">
@@ -268,91 +368,32 @@
          <div class="nine columns main-col">
 
             <p>
-               Currently, my research interest includes ML-based computer vision, Computational Photography, Model
-               Designing & Optimization, Stereo Vision & Bioinformatics. So, I'm representing relevant skill:-
+               My research interests include ML-based computer vision, computational photography, model design &
+               optimization, stereo vision, and bioinformatics. Below is a list of my relevant skills:
             </p>
 
-            <div class="myskill">
-               <!---  Python --->
-               <div class="skillbar clearfix " data-percent="95%">
-                  <div class="skillbar-title" style="background: #88cd2a;"><span>Python</span></div>
-                  <div class="skillbar-bar" style="background: #88cd2a;"></div>
-                  <div class="skill-bar-percent">95%</div>
-               </div>
-
-
-               <!----- Framework  ------->
-               <div class="skillbar clearfix " data-percent="85%">
-                  <div class="skillbar-title" style="background: #e68a23;"><span>Pytorch</span></div>
-                  <div class="skillbar-bar" style="background: #e68a23;"></div>
-                  <div class="skill-bar-percent">85%</div>
-               </div>
-
-               <!----- Framework  ------->
-               <div class="skillbar clearfix " data-percent="80%">
-                  <div class="skillbar-title" style="background: #e68a23;"><span>Tensorflow 2</span></div>
-                  <div class="skillbar-bar" style="background: #e68a23;"></div>
-                  <div class="skill-bar-percent">80%</div>
-               </div>
-
-               <!---  SciPy --->
-               <div class="skillbar clearfix " data-percent="90%">
-                  <div class="skillbar-title" style="background: #88cd2a;"><span>SciPy : Numpy, Pandas,
-                        Matplotlib, IPython</span></div>
-                  <div class="skillbar-bar" style="background: #88cd2a;"></div>
-                  <div class="skill-bar-percent">90%</div>
-               </div>
-
-               <!----- CV  ------->
-               <div class="skillbar clearfix " data-percent="85%">
-                  <div class="skillbar-title" style="background: #00a8ff;"><span>CV: OpenCV, Pillow</span></div>
-                  <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                  <div class="skill-bar-percent">85%</div>
-               </div>
-
-               <!----- Matlab  ------->
-               <div class="skillbar clearfix " data-percent="70%">
-                  <div class="skillbar-title" style="background: #d15a10;"><span>MatLab</span></div>
-                  <div class="skillbar-bar" style="background: #d15a10;"></div>
-                  <div class="skill-bar-percent">70%</div>
-               </div>
-
-               <!----- NLP  ------->
-               <div class="skillbar clearfix " data-percent="65%">
-                  <div class="skillbar-title" style="background: #d15a10;"><span>Natural Language Processing</span>
-                  </div>
-                  <div class="skillbar-bar" style="background: #d15a10;"></div>
-                  <div class="skill-bar-percent">65%</div>
-               </div>
-
-               <!----- Origin, Graphpad  ------->
-               <div class="skillbar clearfix " data-percent="85%">
-                  <div class="skillbar-title" style="background: #1a0dab;"><span>Origin Pro, GraphPad</span></div>
-                  <div class="skillbar-bar" style="background: #1a0dab;"></div>
-                  <div class="skill-bar-percent">70%</div>
-               </div>
-
-               <!----- Read CV paper  ------->
-               <div class="skillbar clearfix " data-percent="95%">
-                  <div class="skillbar-title" style="background: #0560a3;"><span>CV papers Reading</span></div>
-                  <div class="skillbar-bar" style="background: #0560a3;"></div>
-                  <div class="skill-bar-percent">95%</div>
-               </div>
-
-               <!----- Optics  ------->
-               <div class="skillbar clearfix " data-percent="85%">
-                  <div class="skillbar-title" style="background: #0560a3;"><span>Computational Optics &
-                        Microscopy</span></div>
-                  <div class="skillbar-bar" style="background: #0560a3;"></div>
-                  <div class="skill-bar-percent">85%</div>
-               </div>
-
+            <div class="myskill-list">
+               <ul>
+                  <li><strong>Programming Languages:</strong> Python, MATLAB, C, C++, Java, SQL, Bash, HTML5, Swift,
+                     PHP, JavaScript, CSS</li>
+                  <li><strong>Frameworks & Libraries:</strong> PyTorch, TensorFlow, Keras, Fast.AI, Pandas, NumPy,
+                     Scikit, NLTK, OpenCV, Flask, J2EE</li>
+                  <li><strong>Machine Learning & AI:</strong> CNN, FCN, RNN, LSTM, Diffusion Models, GAN, Transformers,
+                     Large Language Models</li>
+                  <li><strong>Data Visualization and Analysis:</strong> Tableau, Microsoft PowerBI, Seaborn, Origin-Pro,
+                     GraphPad</li>
+                  <li><strong>High-Performance Computing:</strong> Batch Scripting, GPU Clusters, Python
+                     Multi-Processing, Dask, Cython</li>
+                  <li><strong>Version Control and DevOps:</strong> Git, Docker, MySQL</li>
+                  <li><strong>Computational Optics & Microscopy:</strong> Experience with developing optical microscopy
+                     systems and computational optics.</li>
+               </ul>
             </div>
-
 
          </div> <!-- main-col end -->
 
       </div> <!-- End skills -->
+
 
 
       <!-- Achievement  ----------------------------------------------- -->
@@ -410,21 +451,17 @@
 
       </div> <!-- End skills -->
 
-
-
-
    </section> <!-- Resume Section End-->
 
 
    <!--================ Testing with the Portfolio============================ -->
 
-   <section  id="portfolio">
-
-      
+   <section id="portfolio">
       <div class="row">
          <div class="twelve columns collapsed">
             <h2 style="text-align: center;">PORTFOLIO</h2>
-            <p  style="text-align: center;">I enjoy exploring, learning, and creating. Here's some of my work that I'm proud of.</p>
+            <p style="text-align: center;">I enjoy exploring, learning, and creating. Here's some of my work that I'm
+               proud of.</p>
          </div>
 
          <div class="threeMod columns">
@@ -440,7 +477,8 @@
                               <h3 class="name">Tear Film Diagnosis with Deep Learning</h3>
                               <p class="profession">The Ocular Surface (In Review)</p>
 
-                              <p class="text-center">Developed a multimodal deep learning model for diagnosis of Meibomian Gland (paper)</p>
+                              <p class="text-center">Developed a multimodal deep learning model for diagnosis of
+                                 Meibomian Gland (paper)</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -456,10 +494,13 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Developed multimodal architecture for automated assessment of tear film infrared images to detect/segment out the eye gland area, provide ophthalmologist quality assessment score (Meiboscore) and remove specular refection.</p>
+                              <p class="text-center">Developed multimodal architecture for automated assessment of tear
+                                 film infrared images to detect/segment out the eye gland area, provide ophthalmologist
+                                 quality assessment score (Meiboscore) and remove specular refection.</p>
 
                               <p class="text-center">Dataset of 1000 images released. </p>
-                              <p class="text-center">[Model: Encoder-Decoder Structure, Resnet50, GAN architecture with image inpainting].</p>
+                              <p class="text-center">[Model: Encoder-Decoder Structure, Resnet50, GAN architecture with
+                                 image inpainting].</p>
                            </div>
                         </div>
                         <div class="footer">
@@ -488,7 +529,9 @@
                               <h3 class="name">Image Reconstruction in Turbulence</h3>
                               <p class="profession">Current Lab Project</p>
 
-                              <p class="text-center">Designing a physics-based deep learning model for dynamic scene restoration affected by atmospheric turbulence taken with Ultra-Zoom or astrophotography camera.</p>
+                              <p class="text-center">Designing a physics-based deep learning model for dynamic scene
+                                 restoration affected by atmospheric turbulence taken with Ultra-Zoom or
+                                 astrophotography camera.</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -504,9 +547,13 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Images taken by long distance object object is effected by turbulenec and come out distorted and blurry. We are working on image restoration from dynamic moving scene of different depth using self supervised deep learning approach. </p>
+                              <p class="text-center">Images taken by long distance object object is effected by
+                                 turbulenec and come out distorted and blurry. We are working on image restoration from
+                                 dynamic moving scene of different depth using self supervised deep learning approach.
+                              </p>
 
-                              <p class="text-center"> This involve moving object separation from turbulence motion by trained optical flow network and self supervised way of image restoration. </p>
+                              <p class="text-center"> This involve moving object separation from turbulence motion by
+                                 trained optical flow network and self supervised way of image restoration. </p>
                            </div>
                         </div>
                         <div class="footer">
@@ -533,7 +580,8 @@
                               <h3 class="name">Path Averaged Structure Index Estimation</h3>
                               <p class="profession">Lab Project</p>
 
-                              <p class="text-center">Design ML model for atmospheric turbulence estimation with focus, light and motion correction.</p>
+                              <p class="text-center">Design ML model for atmospheric turbulence estimation with focus,
+                                 light and motion correction.</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -549,23 +597,12 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Onsite Experiment: Setup onsite team experiment with several telescopes, weather stations, and scintillometers.</p>
-                              <p class="text-center">Data Analysis: Analyze data taken with telescope, drones, cameras, weather stations, and scintillometers.</p>
-                              <p class="text-center">ML Model: Design ML model for atmospheric turbulence estimation with focus, light and motion correction.</p>
-     
-                              <!-- <div class="stats-container">
-                                 <div class="stats">
-                                    <h4></h4>
-                                    <p></p>
-                                 </div>
-                                 <div class="stats">
-                                    <h4></h4>
-                                 </div>
-                                 <div class="stats">
-                                    <h4></h4>
-                                    <p>Authors</p>
-                                 </div>
-                              </div> -->
+                              <p class="text-center">Onsite Experiment: Setup onsite team experiment with several
+                                 telescopes, weather stations, and scintillometers.</p>
+                              <p class="text-center">Data Analysis: Analyze data taken with telescope, drones, cameras,
+                                 weather stations, and scintillometers.</p>
+                              <p class="text-center">ML Model: Design ML model for atmospheric turbulence estimation
+                                 with focus, light and motion correction.</p>
 
                            </div>
                         </div>
@@ -594,7 +631,8 @@
                               <h3 class="name">Covid-19 Detection from Spectral Signature </h3>
                               <p class="profession">Lab Project - with Collaboration</p>
 
-                              <p class="text-center">Develop a AI model for classifying different varieties of  COVID virus by analyzing spectral data.</p>
+                              <p class="text-center">Develop a AI model for classifying different varieties of COVID
+                                 virus by analyzing spectral data.</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -610,15 +648,18 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Spectral Analysis: Analyze absorption and emission spectroscopy data of viruses from saliva and buer solution</p>
-                              <p class="text-center">Covid-19 Classication: Simulate dataset from limited spectra; AI for Covid-19 classication from spectral signatures.</p>
+                              <p class="text-center">Spectral Analysis: Analyze absorption and emission spectroscopy
+                                 data of viruses from saliva and buer solution</p>
+                              <p class="text-center">Covid-19 Classication: Simulate dataset from limited spectra; AI
+                                 for Covid-19 classication from spectral signatures.</p>
                               <p class="text-center">Funded by: Lightsense Technology</p>
-                              
+
                            </div>
                         </div>
                         <div class="footer">
                            <div class="social-links text-center">
-                              <a href="https://lightsensetechnology.com/products/pathogendetect-pd-platform/" class="demo">Product</a>
+                              <a href="https://lightsensetechnology.com/products/pathogendetect-pd-platform/"
+                                 class="demo">Product</a>
                            </div>
                         </div>
                      </div> <!-- end back panel -->
@@ -642,7 +683,8 @@
                               <h3 class="name">Detect Blood Glucose from Contact Lens</h3>
                               <p class="profession">Ms Project</p>
 
-                              <p class="text-center">Developed a architecture to analyze color of images of contact lenses and predict blood glucose level.</p>
+                              <p class="text-center">Developed a architecture to analyze color of images of contact
+                                 lenses and predict blood glucose level.</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -658,8 +700,10 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Developed an architecture to analyze images of custom contact lenses and predict blood glucose level with 85% accuracy</p>
-                              <p class="text-center">Measured with spectroscopy system and got better result from image analysis based methods.</p>
+                              <p class="text-center">Developed an architecture to analyze images of custom contact
+                                 lenses and predict blood glucose level with 85% accuracy</p>
+                              <p class="text-center">Measured with spectroscopy system and got better result from image
+                                 analysis based methods.</p>
                            </div>
                         </div>
                         <div class="footer">
@@ -686,7 +730,8 @@
                               <h3 class="name">Building Optical Microscopy/Telescope</h3>
                               <p class="profession">MS Project</p>
 
-                              <p class="text-center">I assisted developing different optical microscopy system in the Lab.</p>
+                              <p class="text-center">I assisted developing different optical microscopy system in the
+                                 Lab.</p>
                            </div>
                            <div class="footer">
                               <div class="rating">
@@ -702,8 +747,12 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">I built abby's diffraction limited microscopy consisting of two camera and different lens elements with supervision from Muhammad Mohsin Qureshi and Professor Euiheon chung.</p>
-                              <p class="text-center">Assisted lab members building different optical system including Confocal microscopy(with integration of scanimage), Light sheet microscopy and two Photon Microscopy.</p>
+                              <p class="text-center">I built abby's diffraction limited microscopy consisting of two
+                                 camera and different lens elements with supervision from Muhammad Mohsin Qureshi and
+                                 Professor Euiheon chung.</p>
+                              <p class="text-center">Assisted lab members building different optical system including
+                                 Confocal microscopy(with integration of scanimage), Light sheet microscopy and two
+                                 Photon Microscopy.</p>
                            </div>
                         </div>
                         <div class="footer">
@@ -746,8 +795,11 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">We have proposed a LSTM based deep learning approach where no need to employ any feature extraction and reduction framework. In this approach, raw ECG data have been employed to the LSTM model. </p>
-                              <p class="text-center">Two classes motor imagery ECG has been classified using LSTM based deep learning approach.</p>
+                              <p class="text-center">We have proposed a LSTM based deep learning approach where no need
+                                 to employ any feature extraction and reduction framework. In this approach, raw ECG
+                                 data have been employed to the LSTM model. </p>
+                              <p class="text-center">Two classes motor imagery ECG has been classified using LSTM based
+                                 deep learning approach.</p>
                            </div>
                         </div>
                         <div class="footer">
@@ -791,12 +843,17 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">Utilize NLP to assess the tweets of influential personalities and how it influences public sentiment<br>Understand public perception and the influence of misinformation on public sentiment to</p>
+                              <p class="text-center">Utilize NLP to assess the tweets of influential personalities and
+                                 how it influences public sentiment<br>Understand public perception and the influence of
+                                 misinformation on public sentiment to</p>
                               <ul>
-                                 <li><b>Help Policymakers</b> with data-driven decision making to check spread of misinformation.</li>
-                                 <li><b>Inspire Media and influential personalities</b> to be cognizant and share the right news.</li>
-                                 <li><b>Wake-up General Public</b> to be more conscious about their news consumption.</li>
-                              </ul>                                 
+                                 <li><b>Help Policymakers</b> with data-driven decision making to check spread of
+                                    misinformation.</li>
+                                 <li><b>Inspire Media and influential personalities</b> to be cognizant and share the
+                                    right news.</li>
+                                 <li><b>Wake-up General Public</b> to be more conscious about their news consumption.
+                                 </li>
+                              </ul>
                            </div>
                         </div>
                         <div class="footer">
@@ -841,10 +898,13 @@
                         </div>
                         <div class="content">
                            <div class="card-main">
-                              <p class="text-center">This project was focused on measuring different neural network model available today and find the best  suited model
+                              <p class="text-center">This project was focused on measuring different neural network
+                                 model available today and find the best suited model
                                  for tabular format data.</p>
                               <p class="text-center">12 data sheet was collected from kaggle for Evaluation </p>
-                              <p class="text-center">Compared SVM, Attention Net, ResNet, CNN, Attention+Resnet with different learning rate, optimizer, loss function, decay, dropout, cross validation to find the best neural network basnd on One hot encoding was used.</p>
+                              <p class="text-center">Compared SVM, Attention Net, ResNet, CNN, Attention+Resnet with
+                                 different learning rate, optimizer, loss function, decay, dropout, cross validation to
+                                 find the best neural network basnd on One hot encoding was used.</p>
                            </div>
                         </div>
                         <div class="footer">
@@ -860,7 +920,7 @@
       </div> <!-- end raw -->
    </section>
    <!--================ End of Portfolio============================ -->
-   
+
 
 
    <!-- Testimonials Section ================================================== -->
